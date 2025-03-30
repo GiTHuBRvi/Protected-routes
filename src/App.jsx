@@ -8,7 +8,7 @@ import { Notfound } from "./Components/Notfound/Notfound";
 import { Navbar } from "./Components/Navbar/Navbar";
 import { ProtectedRouter } from "./Components/ProtectedRouter/ProtectedRouter";
 import { Login } from "./Components/Login/Login";
-import { Signin } from "./Components/SignIN/Signin";
+import Signin from "./Components/SignIN/Signin";
 function App() {
   const route = createBrowserRouter([
     {

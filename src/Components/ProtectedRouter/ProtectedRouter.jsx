@@ -7,13 +7,15 @@ export const ProtectedRouter = ({ children }) => {
     console.log(authToken,"got the auth token")
     console.log(authToken);
     
-    if(!authToken)
+   
+    
+    if(authToken)
     {
-        return <Navigate to="/" replace />
+      return children 
+      
     }
-    if(authToken==="ravina")
-    {
-      return children; 
-    }
+    return (<Navigate to="/" replace />
+ )
+  
   
 };

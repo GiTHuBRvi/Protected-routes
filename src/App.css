@@ -31,8 +31,9 @@ input{
 .dis{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: lightblue;
+  font-size: 30px;
 }
 .custom{
 color: rgb(255, 255, 255);
